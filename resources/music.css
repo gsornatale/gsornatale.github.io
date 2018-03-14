@@ -1,0 +1,267 @@
+html {
+  font-family: helvetica;
+}
+
+header {
+  display: flex;
+  z-index: 2;
+  background-color: black;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 4em;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+
+}
+
+.busty h2 {
+  color: white;
+  font-family: avenir-lt-w01_85-heavy1475544, sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.25em;
+  text-shadow: 4px 4px black;
+}
+
+.intro a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+  }
+
+  .site-nav a {
+      text-decoration: none;
+      color: white;
+      padding: 10px;
+      display: inline-block;
+    }
+
+.logo {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 10px;
+}
+
+.site-nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+
+
+
+
+/* this is the body */
+
+
+.intro {
+  padding-top: 4em;
+  background-image: url(https://electric-objects-web-production-attachments.imgix.net/artworks/preview_images/000/003/589/original/91c3654098646fabfd81dad2ef2add59/tumblr_nfo5uinTDW1qmkli8o6_r1_1280.jpg?ixlib=rb-0.3.5&fm=jpg&dpr=1&w=1080&h=1920&bg=000&fit=crop&lossless=false&s=b714df6c1e47daa628893236339497f5);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100em;
+  border-top: 3px solid black;
+  text-align: center;
+}
+
+.intro h1 {
+  font-size: 6em;
+  text-align: center;
+  text-shadow: 4px 4px black;
+  color: white;
+  font-family: 'Open Sans', san-serif;
+  letter-spacing: .05em;
+}
+
+
+.intro a {
+  font-size: 2em;
+  text-decoration: none;
+  color: mistyrose;
+  text-align: center;
+  text-shadow: 1.5px 1.5px black;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+}
+
+.banner {
+  font-size: 3em;
+  text-align: center;
+  border-top: 3px solid black;
+  height: 100%;
+  background-color: mistyrose;
+  vertical-align: middle;
+  text-shadow: 4px 4px white;
+
+}
+.busty {
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  background-image: url(https://cdn2.gigantic.com/static/images/campaign/1170x375/busty_and_the_bass-4846450593.jpg);
+  margin-top: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  font-size: 3em;
+  color: white;
+  text-shadow: 4px 4px black;
+  height: 100%;
+  vertical-align: middle;
+}
+
+h4 {
+  font-size: .5em;
+  line-height: 20%;
+}
+.show1 {
+  background-color: #f7f7f7;
+  height: 100%;
+}
+
+.post {
+  width: 80%;
+  margin: 4em auto;
+  height: 100%;
+  font-family: georgia;
+  line-height: 1.6em;
+
+}
+
+.post p {
+  text-indent: 30px;
+  width: 80%;
+  margin: 1.5em auto;
+}
+
+.post p:first-child:first-letter {
+  font-size: 4em;
+}
+/* these are photos of gina at Busty */
+
+
+.ready {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+}
+
+.gina-container {
+  min-width: 310px;
+  width: 50%;
+  margin: 0;
+}
+
+.gina-container img {
+  width: 100%;
+  height: 100%;
+  min-width: 200px;
+  border: 1px solid black;
+
+
+}
+
+/* showpics1 */
+
+
+.showpics1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+}
+
+.showpics1-container {
+  min-width: 310px;
+  width: 100%;
+  margin: 0;
+}
+
+.showpics1-container img {
+  width: 100%;
+  height: 100%;
+  min-width: 200px;
+  border: 1px solid black;
+  margin: 0;
+}
+
+#albums-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #f3f3f3;
+    border-top: 3px solid black;
+    padding-top: 2px;
+}
+
+.albums {
+    width: 33.1%;
+    min-width: 260px;
+    border: 1px solid white;
+}
+
+.center {
+    text-align: center;
+    min-width: 200px;
+
+}
+
+.albums .image-container {
+    width: 100%;
+    height: 75%;
+    min-width: 200px;
+
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+}
+
+.image-container img:hover {
+  background-image: url(data:image/png;base64,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);
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+  background-color: black;
+  align-items: center;
+  color: gray;
+}
+
+.info {
+  margin-left: 10px;
+}
+
+nav {
+  display: flex;
+}
+
+.bottom {
+  display: flex;
+  list-style-type: none;
+}
+
+.bottom li {
+  margin: 0 10px;
+
+}
+
+.bottom a {
+  color: gray;
+
+}

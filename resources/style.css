@@ -1,0 +1,224 @@
+* {
+  font-weight: 100;
+  font-size: 1rem;
+}
+
+
+/* below is the header */
+
+header {
+  display: flex;
+  border-bottom: 1px solid black;
+  z-index: 2;
+  background-color: white;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  margin-bottom: 30px;
+  /* background-color: #63ffff; */
+}
+
+#john {
+  margin-left: 4%;
+}
+
+#la {
+  margin-right: 4%;
+}
+
+
+header h3 {
+  font-size: 3.5rem;
+  margin: 15px;
+  font-weight: bold;
+  font-family: 'Permanent Marker', cursive;
+
+  /* letter-spacing: .2rem; */
+}
+
+header h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+
+  /* font-style: italic; */
+}
+
+em {
+  font-family: comic;
+  font-size: 55px
+}
+
+/* this is the background under the header */
+
+body {
+  background-image: url(https://i.pinimg.com/originals/cb/78/69/cb7869438b2c7cd2935a182188e108fa.jpg);
+  /* background-image: url(http://78.media.tumblr.com/eaceac3a3c315438511243acd296866b/tumblr_nfo5uinTDW1qmkli8o1_r1_1280.jpg); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  padding-top: 110px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  flex-wrap: wrap;
+  width: 75%;
+  margin-bottom: 250px;
+}
+
+.box {
+  display: flex;
+  margin: 5px 5px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 31%;
+  box-shadow: 0px 0px 7px -20px black;
+  border-radius: 25px;
+}
+
+
+.box a {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'open sans', sans-serif;
+  letter-spacing: .1rem;
+  color: white;
+  text-decoration: none;
+  flex: 1;
+  transition: all .2s ease;
+  text-shadow: 1px 1px black;
+  height: 30vh;
+  min-height: 160px;
+  line-height: 30vh;
+  border-radius: 25px;
+}
+
+
+.box a:hover {
+  color: black;
+  font-size: 2em;
+  text-decoration: none;
+  text-shadow: none;
+  background-image: url(http://www.onlygfx.com/wp-content/uploads/2016/10/watercolor-cloud-1-1024x664.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border-radius: 25px;
+  transition: .2s;
+  opacity: .9;
+}
+
+/* .music a:hover {
+  background-image: url(http://www.onlygfx.com/wp-content/uploads/2017/04/watercolor-cloud-4-3-1024x486.png);
+}
+
+.sketches a:hover {
+  background-image: url(http://www.onlygfx.com/wp-content/uploads/2017/04/watercolor-cloud-vol-2-4.png);
+}
+
+.about a:hover {
+  background-image: url(https://orig00.deviantart.net/f482/f/2016/248/4/b/blue_watercolor_png_by_looksxperfct-daglyp3.png);
+}
+
+.food a:hover {
+  background-image: url(https://media.tnh.me/52dc64aa1cb17a34c651150d/5671da19d51e03510d81bef5);
+}
+
+.contact a:hover {
+  background-image: url(https://orig00.deviantart.net/9d59/f/2016/081/1/8/nube_png4_by_angelarominarivas-d9w2hcq.png);
+} */
+
+iframe {
+  padding-left: 5%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+  background-color: black;
+  align-items: center;
+  color: mistyrose;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.info {
+  margin-left: 10px;
+}
+
+nav {
+  display: flex;
+}
+
+.bottom {
+  display: flex;
+  list-style-type: none;
+}
+
+.bottom li {
+  margin: 0 10px;
+
+}
+
+.bottom a {
+  color: mistyrose;
+
+}
+
+.soundcloud {
+  width: 70%;
+  margin-right: 4%;
+}
+/* below are my media queries */
+
+@media only screen and (max-width:913px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box {
+    width: 98%;
+    align-items: center;
+  }
+
+}
+
+@media only screen and (max-width:663px) {
+  .container {
+    margin-top: 60px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    background-color: black;
+    align-items: center;
+    color: mistyrose;
+    }
+
+    .bottom a {
+      color: #000000;
+
+    }
+
+    header h4 {
+      display: none;
+    }
+
+    header {
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+    }
+}
